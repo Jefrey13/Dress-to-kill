@@ -1,33 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dress To Kill</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
-    <!--Header section START-->
-    <header class="home-header">
-    <a href="#" class="logo"><i class="fa-solid fa-vest"></i>dress to kill</a>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!--Header section Start-->
+    <header class="header">
+      <a href="#" class="header__logo"
+        ><i class="fa-solid fa-vest header__logo-i"></i>dress to kill</a>
 
-    <nav class="navbar">
-        <a href="#male" class="active">male</a>
-        <a href="#femail">femail</a>
-        <a href="#kinds">kinds</a>
-        <a href="#new in">new in</a>
-        <a href="#category">category</a>
-    </nav>
+      <nav class="header__navbar">
+        <a href="#home" class="header__navbar-a">home</a>
+        <a href="#featured" class="header__navbar-a">featured</a>
+        <a href="#newin" class="header__navbar-a">new in</a>
+        <a href="#aboutus" class="header__navbar-a">About Us</a>
+        <a href="#contactus" class="header__navbar-a">Contact Us</a>
+      </nav>
 
-    <div class="icons">
-        <i class="fas fa-search"></i>
-        <i class="fas fa-bag-shopping"></i>
-        <div class="photo-frame"><a href="#"><img src="./image/photo.png" alt="photo"></a></div>
-    </div>
-</header>
-    <!--Header section START-->
+      <div class="header__icons">
+        <i class="fas fa-search header__icons-i"></i>
+        <i class="fas fa-bag-shopping header__icons-i"></i>
+        <div class="photo-frame header__icons-div">
+          <a href="#"><img src="./image/photo.png" alt="photo" /></a>
+        </div>
+      </div>
 
-    <script src="./script/script.js"></script>
-</body>
+    </header>
+    <!--Header section End-->
+
+    <!--Home section Start-->
+    <section class="home" id="home">
+        <div class="home-box">
+            <div class="home-box__content">
+                <h1 class="home-box-h1">Every stitch matters, every garment speaks. <span>Welcome</span> to your new fashion story.</h1>
+                <p class="home-box__content-p">Discover the artistry in every stitch, where garments speak volumes. Welcome to <span>dress to kill</span>, where your fashion story unfolds in style</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="swiper home-slider home-box__image">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./image/models-PhotoRoom.png-PhotoRoom.png" alt="set" title="set" class="home-box__image-img">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/happy-lady-stylish-skirt-boater.png" alt="set" title="set" class="home-box__image-img">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/happy-smiling-short-haired-girl.png" alt="set" title="set" class="home-box__image-img">
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--Home section End-->
+
+    <section class="featured" id="featured">
+      <h3 class="heading"><span>featured clothes</span></h3>
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper featured-wrapper">
+
+          <div class="swiper-slide featured__box">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-cart-shopping"></i>
+
+            <div class="featured__box-image">
+              <img src="./image/man01-removebg-preview.png" alt="">
+            </div>
+
+            <div class="featured__box-content">
+              <h3 class="featured__box-price">price: <span>$156</span></h3>
+              <div class="featured__box-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <input type="button" value="see more" class="btn">
+            </div>
+          </div>
+
+          <div class="swiper-slide featured__box">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-cart-shopping"></i>
+
+            <div class="featured__box-image">
+              <img src="./image/man1-removebg-preview.png" alt="">
+            </div>
+            <div class="featured__box-content">
+              <h3 class="featured__box-price">price: <span>$156</span></h3>
+              <div class="featured__box-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <input type="button" value="see more" class="btn">
+            </div>
+          </div>
+
+          <div class="swiper-slide featured__box">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-cart-shopping"></i>
+            <div class="featured__box-image">
+              <img src="./image/man2-removebg-preview.png" alt="">
+            </div>
+            <div class="featured__box-content">
+              <h3 class="featured__box-price">price: <span>$150</span></h3>
+              <div class="featured__box-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <input type="button" value="see more" class="btn">
+            </div>
+          </div>
+
+          <div class="swiper-slide featured__box">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-cart-shopping"></i>
+
+            <div class="featured__box-image">
+              <img src="./image/man3-PhotoRoom.png-PhotoRoom.png" alt="">
+            </div>
+            <div class="featured__box-content">
+              <h3 class="featured__box-price">price: <span>$156</span></h3>
+              <div class="featured__box-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <input type="button" value="see more" class="btn">
+            </div>
+          </div>
+
+          <div class="swiper-slide featured__box">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-cart-shopping"></i>
+
+            <div class="featured__box-image">
+              <img src="./image/man4-removebg-preview.png" alt="">
+            </div>
+            <div class="featured__box-content">
+              <h3 class="featured__box-price">price: <span>$156</span></h3>
+              <div class="featured__box-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <input type="button" value="see more" class="btn">
+            </div>
+          </div>
+
+          <div class="swiper-slide featured__box">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-cart-shopping"></i>
+
+            <div class="featured__box-image">
+              <img src="./image/man5-removebg-preview.png" alt="">
+            </div>
+            <div class="featured__box-content">
+              <h3 class="featured__box-price">price: <span>$156</span></h3>
+              <div class="featured__box-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <input type="button" value="see more" class="btn">
+            </div>
+          </div>
+
+          <div class="swiper-slide featured__box">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-cart-shopping"></i>
+
+            <div class="featured__box-image">
+              <img src="./image/man6-removebg-preview.png" alt="">
+            </div>
+            <div class="featured__box-content">
+              <h3 class="featured__box-price">price: <span>$156</span></h3>
+              <div class="featured__box-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <input type="button" value="see more" class="btn">
+            </div>
+          </div>
+
+          <div class="swiper-slide featured__box">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-cart-shopping"></i>
+
+          <div class="featured__box-image">
+            <img src="./image/man7-PhotoRoom.png-PhotoRoom.png" alt="">
+          </div>
+          <div class="featured__box-content">
+            <h3 class="featured__box-price">price: <span>$156</span></h3>
+            <div class="featured__box-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <input type="button" value="see more" class="btn">
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <script src="./script/script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
 </html>
