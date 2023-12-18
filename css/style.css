@@ -5,6 +5,11 @@
 @import url(./sections/header.css);
 @import url(./sections/home.css);
 @import url(./sections/featured.css);
+@import url(./sections/newin.css);
+@import url(./sections/aboutus.css);
+@import url(./sections/deal.css);
+@import url(./sections/contactus.css);
+@import url(./sections/footer.css);
 
 :root{
     --darkGreen:#009368;
@@ -16,13 +21,13 @@
     --darkGray:#7d8597;
     --lightPurple:#8338ec;
     --darkPurple:#560bad;
-    --lightPink:#f8b3cd;
-    --darkPink:#fe9abe;
+    --lightPink:#f7a5c4;
+    --darkPink:#f86198;
     --lightSkyblue:#bde0fe;
     --darkSkyblue:#a2d2ff;
     --lightRed:#f02a41;
     --darkRed:#d90429;
-    --lightBlue:#1db3e4;
+    --lightBlue:#14afe3;
     --darkBlue:#0077b6;
     --darkOrange:#ff5400;
     --lightOrange:#f46721;
@@ -60,7 +65,7 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--darkGray);
 }
 *::selection{
-    background-color: var(--lightDark);
+    background-color: var(--lightRed);
     color: var(--white);
 }
 section{

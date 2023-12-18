@@ -1,0 +1,48 @@
+.data{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1rem;
+}
+.aboutus__content{
+    flex: 1 1 45rem;
+    padding: 4rem .5rem 0 .5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.aboutus__image{
+    flex: 1 1 45rem;
+    padding: 1rem;
+    background: linear-gradient(40deg, var(--darkRed) 40%, var(--lightRed) 40%);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.aboutus__image-img{
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    user-select: none;
+}
+.aboutus__content-h3{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--lightDark);
+}
+.aboutus__content-h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: var(--lightRed);
+}
+.aboutus__content-p{
+    font-size: 1.7rem;
+    color: var(--lightDark);
+    line-height: 1.5;
+    text-wrap: wrap;
+}

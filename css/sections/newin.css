@@ -1,0 +1,54 @@
+.newin-h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--lightRed);
+    text-transform: capitalize;
+    text-align: center;
+}
+.newin__box{
+    position: relative;
+    overflow: hidden;
+    margin: 2rem 0;
+    border-radius: .5rem;
+    border:var(--border);
+    width: 25rem;
+    padding: 1rem;
+    text-align: center;
+    background: linear-gradient(15deg, #eee 40%, #fff 40.1%);   
+
+    &:hover{
+        box-shadow: var(--box-shadow);
+    }
+}
+.newin__box-h3{
+    color: var(--darkBlue);
+    font-size: 2rem;
+}
+.new__in-img{
+    width: 100%;
+    height: 25rem;
+    object-fit: contain;
+    object-position: center;
+    padding: 2rem;
+    pointer-events: none;
+    user-select: none;
+}
+.newin-heart{
+    background-color: var(--white) !important;
+    color: var(--lightDark) !important;
+
+    &:hover{
+        background-color: var(--gray-2) !important;
+    }
+}
+.swiper-button-next,
+.swiper-button-prev{
+    background-color: var(--darkSkyblue);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background-color: var(--lightRed);
+    color: var(--white);
+}
