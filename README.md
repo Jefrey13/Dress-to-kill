@@ -2,17 +2,6 @@
 
 Welcome to Dress to Kill, a modern and stylish online clothing store.
 
-## Installation
-
-1. Clone this repository:
-
-    ```bash
-    git clone https://github.com/Jefrey13/Dress-to-kill.git
-    cd dress-to-kill
-    ```
-
-2. Open `index.html` in your web browser.
-
 ## Project Structure
 
 - 📁 **css**: General CSS style files.
@@ -31,21 +20,9 @@ Welcome to Dress to Kill, a modern and stylish online clothing store.
 
 - Explore a wide variety of fashionable clothing.
 
-## Screenshots
 
-![Home Page](./image/home1.png)
-*Screenshot of the Dress to Kill home page.*
-
-![Home Page](./image/featuredClothes.png)
-*Screenshot of the Dress to Kill Featured page.*
-
-![Home Page](./image/newIn.png)
-*Screenshot of the Dress to Kill New In page.*
-
-![Home Page](./image/deal.png)
-*Screenshot of the Dress to Kill Deal page.*
-
-And more...
+## 🔗 Live Demo  
+🚀 **[Hit the Books](https://dresstokill.netlify.app/)**  
 
 ## Contributing
 
